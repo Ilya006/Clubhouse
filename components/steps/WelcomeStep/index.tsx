@@ -19,7 +19,7 @@ export const WelcomeStep: React.FC = () => {
         youches, we’re adding people gradually to make sure nothing breaks :)
       </p>
       <div>
-        <Button > 
+        <Button >
           Get your username
           <img className="d-ib ml-10" src="/static/arrow.svg" />
         </Button>
@@ -28,5 +28,3 @@ export const WelcomeStep: React.FC = () => {
     </WhiteBlock>
   );
 };
-
-// onClick={onNextStep}
